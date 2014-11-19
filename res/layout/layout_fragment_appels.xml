@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundgradient"
+    android:dividerPadding="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:showDividers="beginning" >
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:background="@color/bleuhopital5"
+        android:orientation="horizontal"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <!-- Logo Start -->
+
+
+        <!-- Logo Ends -->
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/border_style"
+            android:textSize="12sp"
+            android:paddingLeft="12dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="Numéro téléphone" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/appeller"
+        style="@style/HomeButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/phone32"
+        android:text="@string/appel"
+        android:textColor="@color/amertume1"
+        android:textSize="14sp" 
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/vertjauneclaire1"
+    android:fillViewport="true" >
+
+    <!-- the scrollview has just one child, who is a linear layout -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backgroundgradient" >
+
+        <!-- Footer Start -->
+        <!-- Footer Start -->
+
+        <LinearLayout
+            android:id="@+id/saisir_dossier_telecharger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp" >
+
+            <Button
+                android:id="@+id/saisir_dossier"
+                style="@style/HomeButton"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/rectangle_design"
+                android:drawableTop="@drawable/ic_newpatient2"
+                android:gravity="center_horizontal"
+                android:paddingTop="20dp"
+                android:text="@string/Saisirdossier"
+                android:textColor="@color/amertume1"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/telecharger_dossier"
+                style="@style/HomeButton"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/rectangle_design"
+                android:drawableTop="@drawable/ic_folder5"
+                android:gravity="center_horizontal"
+                android:minHeight="78dip"
+                android:paddingTop="20dp"
+                android:text="@string/Telechargerdossier"
+                android:textColor="@color/amertume1"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/consultedossiermessagerie"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/saisir_dossier_telecharger"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp" >
+
+            <Button
+                android:id="@+id/consulter_dossier"
+                style="@style/HomeButton"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/rectangle_design"
+                android:drawableTop="@drawable/ic_folder4"
+                android:gravity="center_horizontal"
+                android:paddingTop="20dp"
+                android:text="@string/Consulterdossier"
+                android:textColor="@color/amertume1"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/consulter_messagerie"
+                style="@style/HomeButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/rectangle_design"
+                android:drawableTop="@drawable/ic_smsemailone"
+                android:gravity="center_horizontal"
+                android:paddingTop="20dp"
+                android:text="@string/Consultermessagerie"
+                android:textColor="@color/amertume1"
+                android:textSize="14sp" />
+        </LinearLayout>
+        <!-- Footer Start -->
+
+        <LinearLayout
+            android:id="@+id/footer"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bleuhopital5"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/action_deconnecter"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/border_style"
+                android:src="@drawable/ic_action_remove" />
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                layout="@layout/layout_nom_prenom" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

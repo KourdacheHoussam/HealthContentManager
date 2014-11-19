@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"></string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="logo">Logo</string>
+    <string name="RecherchePatient">Recherche Patient</string>
+    <string name="Saisirdossier">Saisir un dossier</string>
+    <string name="Telechargerdossier">Télécharger </string>
+    <string name="Consulterdossier">Consulter dossier</string>
+    <string name="Consultermessagerie">Messagerie</string>
+    <string name="HealthContentManager">Health Content Manager</string>
+    <string name="Login">Login</string>
+    <string name="Password">Password</string>
+    <string name="senregistrer">S\'enregistrer</string>
+    <string name="mdpconfirmation">Confirmer mdp</string>
+    <string name="statut">Statut Utilisateur</string>
+    <string name="refresh">Rafraichir</string>
+    <string name="settings">Configuration</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="action_finish">Finish</string>
+    <string name="action_info">Photo info</string>
+    <string name="recherche"> Rechercher</string>
+    <string name="prenompatient"> Prenom </string>
+    <string name="nompatient"> Nom </string>    
+	<string name="download">download</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">       
+        <item>SMS</item>
+        <item>Emails</item>
+        <item>Appels</item>
+        <item>Dossier</item>
+        <item>Liste Tâches</item>
+        <item>Localiser patient</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_menu_comment</item>
+        <item>@drawable/ic_menu_navigate</item>
+        <item>@drawable/ic_menu_answer_call</item>
+        <item>@drawable/ic_menu_archive</item>
+        <item>@drawable/notecheck32</item>
+        <item>@drawable/ic_menu_mapmode</item>
+    </array>
+    <string name="nomPatient">Nom Patient</string>
+    <string name="prenomPatient">Prenom Patient</string>  
+    <string name="dateNaissPatient">Date de naissance Patient</string>
+    <string name="adressePatient">adresse Patient</string>
+    <string name="EmailPatient">Email Patient</string>
+    <string name="NumeroSecuritesocialePatient">Numero Securite Social Patient</string>
+    <string name="NumeroTelphonePatient">Numero tel Patient</string>
+    <string name="TelephoneUrgencePatient">Telephone Urgence</string>
+    <string name="nomTuteurPatient">Nom Tuteur patient</string>
+    <string name="prenomTuteurPatient">Prenom Tuteur Patient</string>
+    <string name="TelephoneTuteur">Telephone Tuteur </string>
+    <string name="enregistrer_Patient">Enregistre Patient </string>
+    
+
+    <string name="enregistrer_Dossier">Enregistre Dossier </string>
+    <string name="dateEntre">Date d\'entre</string>
+    <string name="dateSortie">Date de Sortie</string>
+    <string name="dateConsultation">Date de consultation </string>
+    <string name="medecinIntervenant">Medecin intervenant </string>
+    <string name="nombreJoursSejour">Nombre Jours Sejour</string>
+    <string name="etatActuelPatient">Etat actuel patient</string>
+    <string name="listeMedicamentAdministres">listes Medicaments Administres</string>
+    <string name="maladieSoignee">Maladie Soignee</string>
+    <string name="Alergies">Alergies</string>
+    <string name="typeSanguin">Type Sanguin</string>
+
+
+	
+	<string name="telephoner">Journal</string>
+	<string name="messages">Messages</string>
+	<string name="appel">Telephone</string>
+	<string name="messagetexto">Message</string>
+	<string name="numero">Numero</string>
+	<string name="envoyer">Envoyer</string>
+	<string name="ecriremesage">Nouveau message</string>
+	
+	
+	
+	
+   <string name="on">Turn On</string>
+   <string name="off">Desactiver</string>
+   <string name="Visible">Visibilite</string>
+   <string name="List">Liste appareils</string>
+	<string name="macle">AIzaSyDIl4i84Aw2cY96FhZsUgoenHQBeysisZc</string>
+</resources>

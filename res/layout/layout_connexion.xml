@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/vertjauneclaire1"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grislight" >
+
+        <!-- Header  Starts -->
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@color/bleuhopital5"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_action_secure" />
+
+        </LinearLayout>
+        <!-- Footer Start -->
+
+        <LinearLayout
+            android:id="@+id/footer"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bleuhopital5"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:paddingLeft="100dp"
+                android:paddingTop="10dp"
+                android:text="@string/HealthContentManager"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/grisclaire"
+                android:textColorHint="@color/vertjaune2" />
+        </LinearLayout>
+
+        <!-- Login Form -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:orientation="vertical"
+            android:padding="65dp" >
+
+            <!-- Email Label -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:text="@string/Login"
+                    android:textColor="#372c24" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/login_id"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="5dip"
+                android:background="@color/grislight2"
+                android:clickable="false"
+                android:duplicateParentState="false"
+                android:inputType="textCapSentences|textAutoCorrect"
+                android:longClickable="false"
+                android:singleLine="true" />
+
+            <!-- Password Label -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="@string/Password"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/mdp_id"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:background="@color/grislight2"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+
+            <!-- Login button -->
+
+            <Button
+                android:id="@+id/btnlogin"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@color/grise"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/Login"
+                android:textColor="@color/bleuhopital2"
+                android:textSize="14sp" />
+
+            <!-- Link to Registration Screen -->
+
+            <Button
+                android:id="@+id/link_to_register"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@color/vertjauneclaire3"
+                android:paddingLeft="30dp"
+                android:paddingRight="20dp"
+                android:text="@string/senregistrer"
+                android:textColor="@color/bleuhopital2"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

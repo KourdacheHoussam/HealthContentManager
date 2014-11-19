@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grislight" >
+
+        <!-- Header  Starts -->
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="@color/bleuhopital5"
+            android:orientation="horizontal"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip" >
+
+            <!-- Logo Start -->
+        </LinearLayout>
+
+        <!-- Login Form -->
+
+        <LinearLayout
+            android:id="@+id/formulaire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:orientation="vertical"
+            android:paddingLeft="60dp"
+            android:paddingTop="30dp" >
+
+            <!-- Email Label -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="@string/nompatient"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/nom_Patient"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="5dip"
+                android:background="@color/grislight2"
+                android:inputType="text" />
+
+            <!-- Password Label -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="@string/prenomPatient"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/prenom_Patient"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dip"
+                android:background="@color/grislight2"
+                android:inputType="text"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="@string/dateNaissPatient"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/naissance_Patient"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dip"
+                android:background="@color/grislight2"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="@string/adressePatient"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/adresse_Patient"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dip"
+                android:background="@color/grislight2"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="@string/EmailPatient"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/email_Patient"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dip"
+                android:background="@color/grislight2"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="@string/NumeroSecuritesocialePatient"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/numero_secu_Patient"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dip"
+                android:background="@color/grislight2"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="@string/NumeroTelphonePatient"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/NumeroTelphone_Patient"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dip"
+                android:background="@color/grislight2"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="@string/TelephoneUrgencePatient"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/TelephoneUrgence_Patient"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dip"
+                android:background="@color/grislight2"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="@string/nomTuteurPatient"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/nomTuteur_Patient"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dip"
+                android:background="@color/grislight2"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="@string/prenomTuteurPatient"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/prenomTuteur_Patient"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dip"
+                android:background="@color/grislight2"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="@string/TelephoneTuteur"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/Telephone_Tuteur"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dip"
+                android:background="@color/grislight2"
+                android:ems="10"
+                android:inputType="text"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/enregistre_patient"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@color/vertjauneclaire3"
+                android:paddingLeft="30dp"
+                android:paddingRight="20dp"
+                android:text="@string/enregistrer_Patient"
+                android:textColor="@color/bleuhopital2"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <!-- Footer Start -->
+
+        <LinearLayout
+            android:id="@+id/footer"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/formulaire"
+            android:layout_marginTop="60dp"
+            android:background="@color/bleuhopital5"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

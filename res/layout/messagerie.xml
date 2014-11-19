@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/vertjauneclaire1"
+    android:fillViewport="true" >
+
+    <!-- the scrollview has just one child, who is a linear layout -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroundgradient"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <LinearLayout
+            android:id="@+id/saisir_dossier_telecharger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp" >
+
+            <Button
+                android:id="@+id/sms"
+                style="@style/HomeButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/rectangle_design"
+                android:drawableTop="@drawable/ic_menu_comment"
+                android:gravity="center_horizontal"
+                android:paddingTop="20dp"
+                android:text="@string/messages"
+                android:textColor="@color/amertume1"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/journalappel"
+                style="@style/HomeButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/rectangle_design"
+                android:drawableTop="@drawable/ic_menu_navigate"
+                android:gravity="center_horizontal"
+                android:minHeight="78dip"
+                android:paddingTop="20dp"
+                android:text="@string/telephoner"
+                android:textColor="@color/amertume1"
+                android:textColorLink="@color/vertjaune1"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+		<LinearLayout
+		    android:id="@+id/consultedossiermessagerie"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@id/saisir_dossier_telecharger"
+		    android:layout_marginBottom="40dp"
+		    android:layout_marginTop="5dp"
+		    android:orientation="horizontal"
+		    android:paddingLeft="2dp"
+		    android:paddingRight="2dp" >
+
+		    <Button
+		        android:id="@+id/ecriretexto"
+		        style="@style/HomeButton"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_marginRight="4dp"
+		        android:background="@drawable/rectangle_design"
+		        android:drawableTop="@drawable/ic_menu_start_conversation"
+		        android:gravity="center_horizontal"
+		        android:paddingTop="20dp"
+		        android:text="@string/ecriremesage"
+		        android:textColor="@color/amertume1"
+		        android:textColorLink="@color/vertjaune1"
+		        android:textSize="14sp" />
+
+		    <Button
+		        android:id="@+id/effectuerappel"
+		        style="@style/HomeButton"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:background="@drawable/rectangle_design"
+		        android:drawableTop="@drawable/ic_menu_answer_call"
+		        android:gravity="center_horizontal"
+		        android:paddingTop="20dp"
+		        android:text="@string/appel"
+		        android:textColor="@color/amertume1"
+		        android:textSize="14sp" />
+		</LinearLayout>
+       
+    </RelativeLayout>
+
+</ScrollView><!-- the scrollview has just one child, who is a linear layout -->
+

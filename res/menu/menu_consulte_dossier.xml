@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <!-- Adds an item to the list. -->
+    <item 
+        android:id="@+id/action_ajout_patient"
+        android:showAsAction="always" 
+        android:icon="@drawable/ic_action_add_person"/>
+  	<item 
+        android:id="@+id/action_appel_patient"
+        android:showAsAction="ifRoom" 
+        android:icon="@drawable/ic_action_phone"/>
+    <item
+        android:id="@+id/ajout_tache_planifiee"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/refresh"
+        android:icon="@drawable/ic_action_event"/>
+    
+
+</menu>

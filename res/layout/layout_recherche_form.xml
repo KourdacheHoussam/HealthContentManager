@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/backgroundgradient"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="20dp" >
+
+    <LinearLayout
+        android:id="@+id/form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/prenompatient"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/bluefonce" />
+
+            <EditText
+                android:id="@+id/prenom_patient"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dip"
+                android:background="@color/grislight2"
+                android:clickable="false"
+                android:duplicateParentState="false"
+                android:ems="10"
+                android:inputType="textCapSentences|textAutoCorrect"
+                android:longClickable="false"
+                android:singleLine="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="22dp"
+                android:paddingRight="37dp"
+                android:text="@string/nompatient"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/bluefonce" />
+
+            <EditText
+                android:id="@+id/nom_patient"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@color/grislight2"
+                android:clickable="false"
+                android:duplicateParentState="false"
+                android:ems="10"
+                android:inputType="textCapSentences|textAutoCorrect"
+                android:longClickable="false"
+                android:singleLine="true" />
+        </TableRow>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/button_recherche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/form"
+        android:background="@drawable/backgroundgradient"
+        android:contentDescription="searchbutton"
+        android:src="@drawable/ic_action_searchpatient" />
+
+</RelativeLayout>

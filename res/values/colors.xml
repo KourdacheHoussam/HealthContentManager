@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+<color name="grislight">#cccccc</color>
+<color name="greenlight">#90f030</color>
+<color name="green">#01a05f</color>
+<color name="grislight2">#e6e6e6</color>
+<color name="bluelight">#2cabe2</color>
+<color name="bluelight2">#2388b4</color>
+<color name="bluefonce">#1a6687</color>
+<color name="bluefonce1">#11445a</color>
+<color name="bluefonce2">#08222d</color>
+<color name="vertjaune1">#859500</color>
+<color name="vertjaune2">#98ab00</color>
+<color name="vertjaune3">#98ab00</color>
+<color name="vertjaune4">#abc000</color>
+<color name="vertjauneclaire1">#e5ee99</color>
+<color name="vertjauneclaire2">#d1e24c</color>
+<color name="vertjauneclaire3">#cbde32</color>
+
+
+<color name="bleuhopital1">#244f5b</color>
+<color name="bleuhopital2">#2d6372</color>
+<color name="bleuhopital3">#367689</color>
+<color name="bleuhopital4">#3f8aa0</color>
+<color name="bleuhopital5">#489eb7</color>
+<color name="bleuhopital6">#8cd7ec</color>
+<color name="bleuhopital7">#ade2f2</color>
+<color name="amertume1">#728476</color>
+<color name="amertume2">#8fa594</color>
+<color name="amertume3">#47524a</color>
+<color name="amertume4">#8fa594</color>
+<color name="grise">#a5b7a9</color>
+<color name="grisclaire">#c7d2c9</color>
+<color name="gristresclair">#dde4de</color>
+</resources>

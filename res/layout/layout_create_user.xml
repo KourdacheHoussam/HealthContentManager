@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/vertjauneclaire1"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grislight" >
+
+        <!-- Header  Starts -->
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="@color/bleuhopital5"
+            android:orientation="horizontal"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip" >
+
+            <!-- Logo Start -->
+        </LinearLayout>
+       
+        <!-- Login Form -->
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_invite" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:orientation="vertical"
+            android:id="@+id/formulaire"
+            android:paddingTop="30dp"
+            android:paddingLeft="60dp" >
+
+            <!-- Email Label -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="@string/Login"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/user_login"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="5dip"
+                android:background="@color/grislight2"
+                android:clickable="false"
+                android:duplicateParentState="false"
+                android:inputType="textCapSentences|textAutoCorrect"
+                android:longClickable="false"
+                android:singleLine="true" />
+
+            <!-- Password Label -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="@string/Password"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/user_mdp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dip"
+                android:background="@color/grislight2"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="@string/mdpconfirmation"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/user_mdp_confirmation"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dip"
+                android:background="@color/grislight2"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="@string/statut"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/statut"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:background="@color/grislight2"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/enregistre_user"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@color/vertjauneclaire3"
+                android:paddingLeft="30dp"
+                android:paddingRight="20dp"
+                android:text="@string/senregistrer"
+                android:textColor="@color/bleuhopital2"
+                android:textSize="14sp" />
+        </LinearLayout>
+        <!-- Footer Start -->
+
+        <LinearLayout
+            android:id="@+id/footer"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/formulaire"
+            android:layout_marginTop="60dp"
+            android:background="@color/bleuhopital5"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+        
+    </RelativeLayout>
+
+</ScrollView>
